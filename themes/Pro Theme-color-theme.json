@@ -7,8 +7,8 @@
 		"editorWidget.border": "#290033",
 		"editorWidget.resizeBorder": "#290033",
 		"editorHoverWidget.background": "#530066",
-		"input.background": "#FF00FF50",
-		"input.border": "#FF00FF50",
+		"input.background": "#53006670",
+		"input.border": "#53006670",
 		"input.foreground": "#F1B8FF",
 		"editorLineNumber.activeForeground": "#F1B8FF",
 		"icon.foreground": "#F1B8FF",
@@ -40,7 +40,17 @@
 		"menubar.selectionBorder": "#FF00FF25",
 		"menubar.selectionForeground": "#F1B8FF",
 		"button.background": "#FF00FFAA",
-		"button.hoverBackground": "#FF00FF50"
+		"button.hoverBackground": "#FF00FF50",
+		"breadcrumb.background": "#53006670",
+		"breadcrumb.foreground": "#F1B8FF",
+		"titleBar.inactiveBackground": "#290033",
+		"titleBar.activeBackground": "#290033",
+		"tab.inactiveBackground": "#290033",
+		"tab.activeBackground": "#53006670",
+		"tab.hoverBackground": "#53006630",
+		"tab.hoverForeground": "#F1B8FF",
+		"tab.activeForeground": "#F1B8FF",
+		"tab.border": "#530066"
 	},
 	"tokenColors": [
 		{
