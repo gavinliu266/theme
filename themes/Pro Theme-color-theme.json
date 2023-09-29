@@ -16,6 +16,9 @@
 		"statusBar.background": "#290033",
 		"statusBar.debuggingBackground": "#22B14C",
 		"sideBar.background": "#290040",
+		"list.hoverBackground": "#530066",
+		"list.activeSelectionBackground": "#530066",
+		"sash.hoverBorder": "#FF00FF",
 		"sideBar.foreground": "#F1B8FF",
 		"sideBar.border": "#350040",
 		"sideBarSectionHeader.background": "#350040",
@@ -62,19 +65,20 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#CF00FF"
 			}
 		},
-		{
+/*		{
 			"name": "Variables",
 			"scope": [
 				"variable",
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"fontStyle": "italic",
+				"foreground": "#89FFCC"
 			}
-		},
+		},*/
 		{
 			"name": "Colors",
 			"scope": [
@@ -95,20 +99,29 @@
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Storage",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"fontStyle": "italic",
+				"foreground": "#FF70CF"
+			}
+		},
+		{
+			"name": "Keyword.Control",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#FF5CFF",
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				"keyword.control",
 				"constant.other.color",
 				"punctuation",
 				"meta.tag",
@@ -146,16 +159,19 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"fontStyle": "italic",
+				"foreground": "#22CFFF"
 			}
 		},
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other"
+				"meta.block variable.other",
+				"source",
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"fontStyle": "italic",
+				"foreground": "#89FFCC"
 			}
 		},
 		{
