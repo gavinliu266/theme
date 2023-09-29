@@ -106,7 +106,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FF70CF"
+				"foreground": "#A0AFFF"
 			}
 		},
 		{
@@ -135,7 +135,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#89ADFF"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#9DF000"
 			}
 		},
 		{
@@ -212,13 +212,13 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
+//				"entity.name",
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
