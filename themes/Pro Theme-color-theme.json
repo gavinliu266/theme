@@ -18,6 +18,7 @@
 		"sideBar.background": "#290040",
 		"list.hoverBackground": "#530066",
 		"list.activeSelectionBackground": "#530066",
+		"list.inactiveSelectionBackground": "#530066",
 		"sash.hoverBorder": "#FF00FF",
 		"sideBar.foreground": "#F1B8FF",
 		"sideBar.border": "#350040",
@@ -164,17 +165,6 @@
 			}
 		},
 		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other",
-				"source",
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#89FFCC"
-			}
-		},
-		{
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
@@ -218,7 +208,6 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-//				"entity.name",
 				"support.type",
 				"support.class",
 				"support.other.namespace.use.php",
@@ -229,6 +218,25 @@
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "Entity name",
+			"scope": [
+				"entity.name"
+			],
+			"settings": {
+				"foreground": "#89FFCC",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#AFA0FF",
 			}
 		},
 		{
