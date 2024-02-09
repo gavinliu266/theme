@@ -4,6 +4,7 @@
 		"scrollbarSlider.background": "#301080AA",
 		"scrollbarSlider.activeBackground": "#300080EE",
 		"scrollbarSlider.hoverBackground": "#300080CC",
+		"scrollbar.shadow": "#301080",
 		"widget.shadow": "#30108070",
 		"editorWidget.foreground": "#A5DFFF",
 		"editorWidget.background": "#200055",
